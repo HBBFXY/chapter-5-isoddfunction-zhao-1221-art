@@ -10,8 +10,7 @@ def isOdd(value):
     """
     # 学生实现代码区域
     # 提示：首先检查类型是否为整数，然后检查奇偶性
-    if isinstance(value,int):
-        if value % 2 != 0:
-            return True
+    if isinstance(value,int) and value % 2 != 0:
+        return True
     else:
         return False
