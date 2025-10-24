@@ -15,7 +15,6 @@ def isOdd(value):
     else:
         return False
 
-if __name__ == '__main__':
-    value = input()
-    isOdd(value)
+value = input()
+print(isOdd(value))
 
